@@ -1,0 +1,52 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a
+{
+    text-decoration:none;
+}
+
+button{
+    text-decoration:none;
+    border:none;
+}
+
+.main-container
+{
+    display:flex;
+    flex-direction:row;
+
+
+}
+
+.sections{
+    display:flex;
+    flex-direction:column;
+    
+}
+
+.section-container
+{
+    display:flex;
+    flex-direction:row;
+}
+
+
+.parallax {
+    /* The image used */
+    background-color:black;
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+

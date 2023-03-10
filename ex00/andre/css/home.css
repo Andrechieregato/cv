@@ -1,0 +1,27 @@
+.home
+{
+    background-image:url('/img/home-image.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    height:100vh;
+    width:85vw;
+}
+
+.home-container
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    height:40vh;
+    margin-left:800px;
+}
+
+.home-title
+{
+    font-size:4rem;
+}
+
+.home-title, .home-subtitle
+{
+    opacity:0.9;
+}
