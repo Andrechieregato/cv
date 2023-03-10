@@ -1,0 +1,53 @@
+*{
+    padding:0;
+    margin:5px 10px 0;
+    box-sizing:border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dropdown
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+span
+{
+    background-color:#262626;
+    color:azure;
+    padding:8px 32px;
+    border-radius:5px;
+}
+
+
+.dropdown:hover .menu-list
+{
+    display:block;
+}
+
+.menu-list
+{
+    display:none;
+    background-color:#262626;
+    border-radius:5px;
+    margin-top:2px;
+}
+
+.dropdown:hover .menu-list{
+    width:30%;
+}
+.dropdown:hover .menu-list-ul
+{
+    display:flex;
+    flex-direction:column;
+    height:400px;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.dropdown:hover .menu-list-ul li{
+    text-decoration: none;
+    list-style:none;
+    color:azure;
+}

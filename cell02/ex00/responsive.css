@@ -1,0 +1,30 @@
+    *{
+        margin:0;
+        padding:0;
+    }
+    table{
+        width:100%;
+        border-collapse: collapse;
+    }
+
+    .block-1, .block-2{
+        width:600px;
+        height:300px;
+    }
+
+    .block-1
+    {
+        background-color:black;
+    }
+
+    .block-2
+    {
+        background-color:gold;
+    }
+
+    h1{
+        color:white;
+        display:flex;
+        flex-direction:flex-start;
+        align-items:center;
+    }

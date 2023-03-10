@@ -1,0 +1,46 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    width:100%;
+}
+
+.main
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    height: 150px;
+    width: 200px;
+    margin: auto auto;
+}
+.container-values
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap:32px;
+}
+
+.container-operator
+{
+    width:10%;
+    height:100px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items:center;
+    gap: 8px;
+}
+.submit-button
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:5%;
+    margin: auto auto;
+}

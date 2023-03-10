@@ -1,0 +1,29 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    height:100%;
+    width:100%;
+}
+main
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+button{
+    border:1px solid #666666;
+    background-color: black;
+    color:azure;
+    border-radius:4px;
+    width:100px;
+    height:40px;
+}
+
+button:hover
+{
+    color:#fdff70;
+    opacity:0.7;
+}

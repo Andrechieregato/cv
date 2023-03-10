@@ -1,0 +1,75 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table
+{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:600px;
+}
+
+tbody
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+}
+
+.tr-image--profile .td-image--profile
+{
+    padding:150px;
+    background-image:url('https://avatars.githubusercontent.com/u/74825880?s=400&u=4dd14a1e65e764367abaa1d2f2fdfc81cfcc509f&v=4');
+    border-radius:4px;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: auto;
+    box-shadow:1px 2px 10px black;
+    
+
+}
+
+.login
+{
+    font-size: 1.4rem;
+}
+
+.tr-icons
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.tr-icons-images
+{
+    width:40px;
+    height:40px
+}
+
+.contact-button
+{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 35px;
+    width: 120px;
+    font-weight:400;
+    background-color: black;
+    border-radius: 5px;
+    color: azure;
+    letter-spacing: 2px;
+}
+.contact-button:hover{
+    color:#fcffd1;
+    opacity:0.9;
+}
+
+
